@@ -82,6 +82,13 @@ flutter:
           weight: 500
         - asset: lib/fonts/Formula1-Wide_web_0.ttf
           weight: 400
+    - family: Formulab
+      fonts:
+        - asset: lib/fonts/Formula1-Bold_web_0.ttf
+    - family: FormulaW
+      fonts:
+        - asset: lib/fonts/Formula1-Wide_web_0.ttf
+          weight: 400
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
