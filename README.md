@@ -1,16 +1,7 @@
-# frontendsprint
 
-A new Flutter project.
+# Front End Sprint
 
-## Getting Started
+Front End Sprint is a mobile app project developed during a hackathon event at our college. The objective of the project is to design the front end of a mobile app within a given period of time. The app is developed using Flutter framework which is a popular choice for building high-performance, cross-platform mobile applications.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots of the UI
+<img src="https://raw.githubusercontent.com/ashmitC1223/Front_End_Sprint/master/screenshots/1.jpg" width=25% height=25%> <img src="https://raw.githubusercontent.com/ashmitC1223/Front_End_Sprint/master/screenshots/2.jpg" width=25% height=25%> <img src="https://raw.githubusercontent.com/ashmitC1223/Front_End_Sprint/master/screenshots/4.jpg" width=25% height=25%>
