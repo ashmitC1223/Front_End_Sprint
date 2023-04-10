@@ -62,7 +62,7 @@ class OnBoardingScreen extends StatelessWidget {
           child: Container(
             height: h/2.5,
             width: w/1.8,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               image: DecorationImage(
                 fit:BoxFit.cover,
                 image: AssetImage("assets/helmet.png")
@@ -72,7 +72,7 @@ class OnBoardingScreen extends StatelessWidget {
         ),
         Align(
           alignment: Alignment.topCenter,
-          child: Container(
+          child: SizedBox(
             height: h/4,
             width: w/1.5,
             child: Column(
@@ -88,7 +88,7 @@ class OnBoardingScreen extends StatelessWidget {
                       h/50
                     ),
                     color: Colors.white,
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image: AssetImage("assets/android.png")
                     )
                   ),
@@ -111,7 +111,7 @@ class OnBoardingScreen extends StatelessWidget {
         Positioned(
           top: h/1.65,
           left: w/12,
-          child: Container(
+          child: SizedBox(
             height: h/3,
             width: w/1.2,
             child: Column(
