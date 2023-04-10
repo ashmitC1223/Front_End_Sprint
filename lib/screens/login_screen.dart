@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
               Container(
                 height: h/4,
                 width: w,
-                decoration: BoxDecoration(
+                decoration: const  BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
                     image: AssetImage("assets/p_image.png")
@@ -89,7 +89,7 @@ class LoginScreen extends StatelessWidget {
                   height: h/13,
                   width: w/1.1,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 46, 46, 46),
+                    color:const  Color.fromARGB(255, 46, 46, 46),
                     borderRadius: BorderRadius.circular(
                       h/55
                     ),
@@ -103,7 +103,7 @@ class LoginScreen extends StatelessWidget {
                     hintText: "hello@company.com",
                     hintStyle: TextStyle(
                       fontSize: h/60,
-                      color: Color.fromARGB(255, 98, 98, 98)
+                      color:const  Color.fromARGB(255, 98, 98, 98)
                     )
                     ),
                   ),
@@ -137,7 +137,7 @@ class LoginScreen extends StatelessWidget {
                   height: h/13,
                   width: w/1.1,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 46, 46, 46),
+                    color:const  Color.fromARGB(255, 46, 46, 46),
                     borderRadius: BorderRadius.circular(
                       h/55
                     ),
@@ -147,14 +147,14 @@ class LoginScreen extends StatelessWidget {
                     obscureText: true,
                     decoration: InputDecoration(
                     suffixIconColor: Colors.white,
-                    suffixIcon: Icon(Icons.remove_red_eye),
+                    suffixIcon: const Icon(Icons.remove_red_eye),
                     contentPadding: EdgeInsets.all(
                       h/45
                     ),
                     hintText: "Your Password",
                     hintStyle: TextStyle(
                       fontSize: h/60,
-                      color: Color.fromARGB(255, 98, 98, 98)
+                      color: const  Color.fromARGB(255, 98, 98, 98)
                     )
                     ),
                   ),
@@ -212,7 +212,7 @@ class LoginScreen extends StatelessWidget {
                   height: h/50,
                 ),
                 Center(
-                  child: Container(
+                  child: SizedBox(
                     height: h/50,
                     width: w,
                     child: Row(
@@ -236,7 +236,7 @@ class LoginScreen extends StatelessWidget {
                           style: TextStyle(
                             fontFamily: "Formula",
                             fontWeight: FontWeight.w400,
-                            color: Color.fromARGB(255, 0, 211, 222),
+                            color: const Color.fromARGB(255, 0, 211, 222),
                             fontSize: h/60
                           ),
                           ),

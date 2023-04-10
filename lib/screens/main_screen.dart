@@ -16,7 +16,7 @@ class _MainScreenState extends State<MainScreen> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.red,
-        unselectedItemColor: Color.fromARGB(255, 207, 207, 207),
+        unselectedItemColor: const Color.fromARGB(255, 207, 207, 207),
         showSelectedLabels: false,
         showUnselectedLabels: false,
         backgroundColor: Colors.black,
@@ -38,7 +38,7 @@ class _MainScreenState extends State<MainScreen> {
                   height: h/2.2,
                   width: w/1.05,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 34, 34, 34),
+                    color: const  Color.fromARGB(255, 34, 34, 34),
                     borderRadius: BorderRadius.circular(
                       h/50
                     )
@@ -56,20 +56,20 @@ class _MainScreenState extends State<MainScreen> {
                             )
                           ),
                         ),
-                        Container(
+                        SizedBox(
                           height: h/20,
                           width: w,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Australian GP",
+                              Text("\t\tAustralian GP",
                               style: TextStyle(
                                 fontFamily: "FormulaB",
                                 color: Colors.white,
                                 fontSize: h/45
                               ),
                               ),
-                              Text("16K",
+                              Text("16K\t\t",
                               style: TextStyle(
                                 fontFamily: "FormulaB",
                                 color: Colors.white,
@@ -79,36 +79,36 @@ class _MainScreenState extends State<MainScreen> {
                             ],
                           ),
                         ),
-                        Container(
+                        SizedBox(
                           height: h/25,
                           width: w,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Melbourne",
+                              Text("\t\tMelbourne",
                               style: TextStyle(
                                 fontFamily: "FormulaB",
-                                color: Color.fromARGB(255, 4, 175, 153),
+                                color:const Color.fromARGB(255, 4, 175, 153),
                                 fontSize: h/65
                               ),
                               ),
-                              Text("Participants",
+                              Text("Participants\t\t",
                               style: TextStyle(
                                 fontFamily: "FormulaB",
-                                color: Color.fromARGB(255, 4, 175, 153),
+                                color: const  Color.fromARGB(255, 4, 175, 153),
                                 fontSize: h/65
                               ),
                               )
                             ],
                           ),
                         ),
-                        Container(
+                        SizedBox(
                           height: h/20,
                           width: w,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("31st Mar - 2nd Apr",
+                              Text("\t\t31st Mar - 2nd Apr",
                               style: TextStyle(
                                 fontFamily: "Formula",
                                 color: Colors.white,
@@ -168,7 +168,7 @@ class _MainScreenState extends State<MainScreen> {
               Padding(
                 padding: EdgeInsets.only(left:h/100),
                 child: Center(
-                  child: Container(
+                  child: SizedBox(
                     height: h/25,
                     child: Row(
                       children: [
@@ -190,7 +190,7 @@ class _MainScreenState extends State<MainScreen> {
                         style: TextStyle(
                           fontFamily: "Formula",
                           fontSize: h/85,
-                          color: Color.fromARGB(255, 4, 254, 254)
+                          color:const  Color.fromARGB(255, 4, 254, 254)
                         ),),
                         SizedBox(
                           width: w/40,

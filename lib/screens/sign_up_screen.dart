@@ -281,7 +281,7 @@ SizedBox(
                       ),
                       child: Center(
                         child: Text(
-                          "LOGIN",
+                          "SIGN UP",
                           style: TextStyle(
                             fontFamily: "FormulaB",
                             color: Colors.white,
