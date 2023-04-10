@@ -210,7 +210,7 @@ class _MainScreenState extends State<MainScreen> {
                   height: h/2.72,
                   width: w/1.05,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 34, 34, 34),
+                    color: const  Color.fromARGB(255, 34, 34, 34),
                     borderRadius: BorderRadius.circular(
                       h/50
                     )
@@ -221,7 +221,7 @@ class _MainScreenState extends State<MainScreen> {
                       SizedBox(
                         height: h/120,
                       ),
-                      Container(
+                      SizedBox(
                         height: h/25,
                         width: w,
                         child: Row(
@@ -244,7 +244,7 @@ class _MainScreenState extends State<MainScreen> {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         height: h/15,
                         width: w,
                         child: Row(
@@ -267,7 +267,7 @@ class _MainScreenState extends State<MainScreen> {
                           ],
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         height: h/4,
                         width: w,
                         child: Row(
@@ -282,7 +282,7 @@ class _MainScreenState extends State<MainScreen> {
                                 borderRadius: BorderRadius.circular(
                                   h/55
                                 ),
-                                image: DecorationImage(
+                                image:const  DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage("assets/container1.png")
                                 )
@@ -341,7 +341,7 @@ class _MainScreenState extends State<MainScreen> {
                                     borderRadius: BorderRadius.circular(
                                       h/55
                                     ),
-                                    image: DecorationImage(
+                                    image: const DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage("assets/container2.png")
                                     )
@@ -383,7 +383,7 @@ class _MainScreenState extends State<MainScreen> {
                                     borderRadius: BorderRadius.circular(
                                       h/55
                                     ),
-                                    image: DecorationImage(
+                                    image: const  DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage("assets/container3.png")
                                     )
@@ -424,7 +424,7 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                 ),
               ),
-              Container(
+              SizedBox(
                 height: h/12,
                 width: w,
                 child: Row(
@@ -447,7 +447,7 @@ class _MainScreenState extends State<MainScreen> {
                       height: h/16,
                       width: w/4,
                       decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 2, 188, 225),
+                        color:const  Color.fromARGB(255, 2, 188, 225),
                         borderRadius: BorderRadius.circular(
                           h/55
                         )
@@ -470,7 +470,7 @@ class _MainScreenState extends State<MainScreen> {
                   height: h/3.5,
                   width: w/1.05,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 34, 34, 34),
+                    color:const  Color.fromARGB(255, 34, 34, 34),
                     borderRadius: BorderRadius.circular(
                       h/55
                     )
@@ -482,7 +482,7 @@ class _MainScreenState extends State<MainScreen> {
                           top: h/50,
                           left: h/50
                         ),
-                        child: Container(
+                        child: SizedBox(
                           width: w/2.3,
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -528,7 +528,7 @@ class _MainScreenState extends State<MainScreen> {
                                 height: h/16,
                                 width: w/3.5,
                                 decoration: BoxDecoration(
-                                  color: Color.fromARGB(255, 95, 95, 95),
+                                  color: const  Color.fromARGB(255, 95, 95, 95),
                                   borderRadius: BorderRadius.circular(
                                     h/55
                                   )
@@ -551,14 +551,11 @@ class _MainScreenState extends State<MainScreen> {
                       Container(
                         height: h/5,
                         width: w/2.2,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage("assets/track2.png")
                           ),
                           color: Colors.black,
-                          borderRadius: BorderRadius.circular(
-                            h/55
-                          )
                         ),
                       )
                     ],
@@ -569,7 +566,7 @@ class _MainScreenState extends State<MainScreen> {
                 height: h/120,
               ),
               Center(
-                child: Container(
+                child: SizedBox(
                   height: h/10,
                   width: w,
                   child: Row(
@@ -577,13 +574,13 @@ class _MainScreenState extends State<MainScreen> {
                       Container(
                         height: h/10,
                         width: w/8,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage("assets/clock.png")
                           )
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         height: h/10,
                         width: w/2,
                         child: Column(
@@ -615,7 +612,7 @@ class _MainScreenState extends State<MainScreen> {
                       Container(
                         height: h/10,
                         width: w/3,
-                        decoration: BoxDecoration(
+                        decoration:const BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover ,
                             image: AssetImage("assets/carcon1.png")
@@ -630,7 +627,7 @@ class _MainScreenState extends State<MainScreen> {
                 height: h/120,
               ),
               Center(
-                child: Container(
+                child: SizedBox(
                   height: h/10,
                   width: w,
                   child: Row(
@@ -638,13 +635,13 @@ class _MainScreenState extends State<MainScreen> {
                       Container(
                         height: h/10,
                         width: w/8,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage("assets/icon2.png")
                           )
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         height: h/10,
                         width: w/2,
                         child: Column(
@@ -676,7 +673,7 @@ class _MainScreenState extends State<MainScreen> {
                       Container(
                         height: h/10,
                         width: w/3,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover ,
                             image: AssetImage("assets/carcon3.png")
