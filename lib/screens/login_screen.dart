@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontendsprint/screens/main_screen.dart';
 import 'package:frontendsprint/screens/sign_up_screen.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -180,7 +181,7 @@ class LoginScreen extends StatelessWidget {
               ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const LoginScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const MainScreen()));
                   },
                   child: Center(
                     child: Container(
