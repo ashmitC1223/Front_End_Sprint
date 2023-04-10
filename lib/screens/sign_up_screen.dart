@@ -17,7 +17,7 @@ class SignUpScreen extends StatelessWidget {
             Container(
               height:h/3.5,
               width: w,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 image: DecorationImage(
                   fit: BoxFit.cover,
                   image:AssetImage("assets/everyone.png")
@@ -88,7 +88,7 @@ class SignUpScreen extends StatelessWidget {
                   height: h/13,
                   width: w/1.1,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 46, 46, 46),
+                    color: const Color.fromARGB(255, 46, 46, 46),
                     borderRadius: BorderRadius.circular(
                       h/55
                     ),
@@ -103,7 +103,7 @@ class SignUpScreen extends StatelessWidget {
                     hintStyle: TextStyle(
                       fontFamily: "Formula",
                       fontSize: h/60,
-                      color: Color.fromARGB(255, 98, 98, 98)
+                      color: const  Color.fromARGB(255, 98, 98, 98)
                     )
                     ),
                   ),
@@ -138,7 +138,7 @@ class SignUpScreen extends StatelessWidget {
                   height: h/13,
                   width: w/1.1,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 46, 46, 46),
+                    color: const Color.fromARGB(255, 46, 46, 46),
                     borderRadius: BorderRadius.circular(
                       h/55
                     ),
@@ -153,7 +153,7 @@ class SignUpScreen extends StatelessWidget {
                     hintStyle: TextStyle(
                       fontFamily: "Formula",
                       fontSize: h/60,
-                      color: Color.fromARGB(255, 98, 98, 98)
+                      color: const Color.fromARGB(255, 98, 98, 98)
                     )
                     ),
                   ),
@@ -188,7 +188,7 @@ class SignUpScreen extends StatelessWidget {
                   height: h/13,
                   width: w/1.1,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 46, 46, 46),
+                    color: const  Color.fromARGB(255, 46, 46, 46),
                     borderRadius: BorderRadius.circular(
                       h/55
                     ),
@@ -203,7 +203,7 @@ class SignUpScreen extends StatelessWidget {
                     hintStyle: TextStyle(
                       fontFamily: "Formula",
                       fontSize: h/60,
-                      color: Color.fromARGB(255, 98, 98, 98)
+                      color:const  Color.fromARGB(255, 98, 98, 98)
                     )
                     ),
                   ),
@@ -238,7 +238,7 @@ class SignUpScreen extends StatelessWidget {
                   height: h/13,
                   width: w/1.1,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 46, 46, 46),
+                    color: const Color.fromARGB(255, 46, 46, 46),
                     borderRadius: BorderRadius.circular(
                       h/55
                     ),
@@ -256,7 +256,7 @@ class SignUpScreen extends StatelessWidget {
                     hintStyle: TextStyle(
                       fontFamily: "Formula",
                       fontSize: h/60,
-                      color: Color.fromARGB(255, 98, 98, 98)
+                      color:const  Color.fromARGB(255, 98, 98, 98)
                     )
                     ),
                   ),
@@ -298,7 +298,7 @@ SizedBox(
                   height: h/50,
                 ),
                 Center(
-                  child: Container(
+                  child: SizedBox(
                     height: h/50,
                     width: w,
                     child: Row(
@@ -322,7 +322,7 @@ SizedBox(
                           style: TextStyle(
                             fontFamily: "Formula",
                             fontWeight: FontWeight.w400,
-                            color: Color.fromARGB(255, 0, 211, 222),
+                            color: const Color.fromARGB(255, 0, 211, 222),
                             fontSize: h/60
                           ),
                           ),
