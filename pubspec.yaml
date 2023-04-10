@@ -76,12 +76,8 @@ flutter:
   fonts:
     - family: Formula
       fonts:
-        - asset: lib/fonts/Formula1-Bold_web_0.ttf
-          weight: 800
         - asset: lib/fonts/Formula1-Regular_web_0.ttf
-          weight: 500
-        - asset: lib/fonts/Formula1-Wide_web_0.ttf
-          weight: 400
+          weight: 500 
     - family: Formulab
       fonts:
         - asset: lib/fonts/Formula1-Bold_web_0.ttf
