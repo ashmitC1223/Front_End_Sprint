@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontendsprint/screens/login_screen.dart';
+import 'package:frontendsprint/screens/sign_up_screen.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -119,7 +120,9 @@ class OnBoardingScreen extends StatelessWidget {
                   height: h/35,
                 ),
                 GestureDetector(
-                  onTap: (){},
+                  onTap: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const SignUpScreen()));
+                  },
                   child: Container(
                     height: h/12,
                     width: w/1.2,
